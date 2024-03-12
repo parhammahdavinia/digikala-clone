@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+
+@font-face {
+  font-family: iranykan;
+  src: url(fonts/Qs_Iranyekan.ttf);
+}
+@font-face {
+  font-family: light;
+  src: url(fonts/Qs_Iranyekan\ light.ttf);
+}
+
+@font-face {
+  font-family: bold;
+  src: url(fonts/Qs_Iranyekan\ bold.ttf);
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+
+  width: 100%;
+  margin: 50px auto;
+  position: absolute;
+}
+.box {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 400px;
+  background: white;
+  border-radius: 5px;
+  font-size: large;
+  border: 1px solid #848383;
+}
+.box-logo {
+  display: flex;
+
+  justify-content: center;
+  padding-top: 20px;
+}
+.text-box-one {
+  display: flex;
+
+  justify-content: flex-start;
+  margin-right: 50px;
+  margin-bottom: 17px;
+  padding: 5px;
+  font-size: 20px;
+  font-family: iranykan;
+}
+.text-box-two {
+  display: flex;
+  justify-content: flex-start;
+  padding: 5px;
+  margin-right: 50px;
+  color: #848383;
+  font-size: 15px;
+  font-family: light;
+}
+.text-box-three {
+  padding: 5px;
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 50px;
+  color: #848383;
+  font-size: 15px;
+  font-family: light;
+}
+.submit {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+
+  & input {
+    width: 80%;
+    height: 40px;
+    border-radius: 7px;
+    background-color: #eee7e7;
+  }
+}
+.inputinput:focus {
+  outline: none;
+  border-bottom: 2px solid red;
+}
+.kilid {
+  display: flex;
+  justify-content: center;
+
+  & button {
+    width: 80%;
+    height: 40px;
+    background: #e6123d;
+    border: none;
+    border-radius: 7px;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 17px;
+    font-family: light;
+  }
+}
+.text-box-4 {
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 40px;
+  font-size: 11px;
+  font-family: bold;
+  & span {
+    color: #008;
+  }
+}
